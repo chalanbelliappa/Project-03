@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Form</title>
+    <link rel="stylesheet" href="C:\Users\chala\Downloads\project-3\Project-03\style .css" />
+</head>
+<body>
+
+    <div class="contact-box">
+        <h2>Get In Touch</h2>
+        <p class="subtitle">
+            We'd love to hear from you. Send us a message and we'll respond as soon as possible.
+        </p>
+
+        <form>
+            <label for="name">Full Name</label>
+            <input type="text" id="name" placeholder="John Doe" required />
+
+            <label for="email">Email Address</label>
+            <input type="email" id="email" placeholder="john@example.com" required />
+
+            <label for="subject">Subject</label>
+            <select id="subject" required>
+                <option value="" disabled selected>Select a subject</option>
+                <option>Support</option>
+                <option>Feedback</option>
+                <option>Business</option>
+                <option>Other</option>
+            </select>
+
+            <label for="message">Message</label>
+            <textarea id="message" placeholder="Your message here..." required></textarea>
+
+            <button type="submit">SEND MESSAGE</button>
+        </form>
+    </div>
+
+</body>
+</html>
